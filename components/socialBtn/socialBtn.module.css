@@ -1,0 +1,19 @@
+.links {
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  color: darkgray;
+}
+
+.links:active {
+  color: rgb(255, 255, 255);
+}
+@media (hover: hover) {
+  .links:hover {
+    color: rgb(255, 255, 255);
+  }
+}
+@media screen and (max-width: 500px) {
+  .links {
+    font-size: 1.8rem;
+  }
+}
